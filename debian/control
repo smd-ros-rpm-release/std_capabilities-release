@@ -1,0 +1,12 @@
+Source: ros-groovy-std-capabilities
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin
+Homepage: http://ros.org/wiki/std_capabilities
+Standards-Version: 3.9.2
+
+Package: ros-groovy-std-capabilities
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: This package contains standard capability interfaces, which describe common robot capabilities in terms of ROS concepts such as topics, services, actions, and parameters.
